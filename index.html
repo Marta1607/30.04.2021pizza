@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="nawigacja">
+        <button class="btn-naw">Pizza</button>
+        <button class="btn-naw">Napoje</button>
+        <button class="btn-naw">Telefon</button>
+        <button class="btn-naw">Wiadomości</button>
+    </nav>
+    <div>
+        <h2>PIZZE</h2>
+        <select name="" id="pizza" onchange="pizza(value)">
+            <option class="rodzaje" value=""></option>
+            <option class="rodzaje" value="Hawajska">Hawajska</option>
+            <option class="rodzaje" value="Margarita">Margarita</option>
+            <option class="rodzaje" value="Chłopska">Chłopska</option>
+            <option class="rodzaje" value="Fantazja">Fantazja</option>
+            <option class="rodzaje" value="wege">Wege</option>
+            <option class="rodzaje" value="Kebab">Kebab</option>
+            <option class="rodzaje" value=""></option>
+        </select>
+    </div>
+    <div>
+        <h2>NAPOJE</h2>
+        <select name="" id="pizza" onchange="pizza(value)">
+            <option class="rodzaje" value=""></option>
+            <option class="rodzaje" value="Hawajska">Pepsi</option>
+            <option class="rodzaje" value="Margarita">Woda</option>
+            <option class="rodzaje" value="Chłopska">Kawa Mrożona</option>
+            <option class="rodzaje" value="Fantazja">Margaritta</option>
+            <option class="rodzaje" value="wege">Cola</option>
+            <option class="rodzaje" value="Kebab">Lipton</option>
+            <option class="rodzaje" value=""></option>
+        </select>
+    </div>
+    <div>
+        <input class="inp" id="imie" value="" type="text" onchange="myFunction1(value)" placeholder="Imię">
+        <input class="inp" id="nazwisko" value="" type="text" onchange="myFunction2(value)" placeholder="Nazwisko">
+        <input class="inp" id="email" value="" type="text" onchange="myFunction3(value)" placeholder="email">
+        <input class="inp" id="telefon" value="" type="text" onchange="myFunction4(value)" placeholder="telefon">
+        <input class="inp" id="wiadomosc" value="" type="text" onchange="myFunction5(value)" placeholder="wiadomość do sprzedającego">
+        <button onclick ="pobieranie(value)" class="btn-naw">pobieranie</button>
+    </div>
+</body>
+</html>
